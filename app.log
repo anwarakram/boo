@@ -1,0 +1,196 @@
+2024-10-23 23:38:56,291 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:38:56,315 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-23 23:38:57,381 [WARNING] Not Found: /
+2024-10-23 23:38:57,383 [WARNING] "GET / HTTP/1.1" 404 2493
+2024-10-23 23:38:57,855 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:38:57,870 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-23 23:38:58,825 [WARNING] Not Found: /favicon.ico
+2024-10-23 23:38:58,825 [WARNING] "GET /favicon.ico HTTP/1.1" 404 2544
+2024-10-23 23:39:00,357 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:39:00,375 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-23 23:39:01,313 [WARNING] Not Found: /admin/auth/user/
+2024-10-23 23:39:01,326 [WARNING] "GET /admin/auth/user/ HTTP/1.1" 404 4649
+2024-10-23 23:39:01,818 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:39:01,831 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-23 23:39:02,739 [WARNING] Not Found: /admin/auth/user/
+2024-10-23 23:39:02,740 [WARNING] "GET /admin/auth/user/ HTTP/1.1" 404 4649
+2024-10-23 23:39:08,991 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:39:09,030 [INFO] "GET /admin/ HTTP/1.1" 200 5888
+2024-10-23 23:39:09,326 [INFO] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+2024-10-23 23:39:09,329 [INFO] "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+2024-10-23 23:39:09,332 [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2024-10-23 23:39:09,333 [INFO] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2024-10-23 23:39:09,333 [INFO] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+2024-10-23 23:39:09,335 [INFO] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+2024-10-23 23:39:09,344 [INFO] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2024-10-23 23:39:09,356 [INFO] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2024-10-23 23:39:09,356 [INFO] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2024-10-23 23:39:13,902 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:39:13,915 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-23 23:39:14,841 [WARNING] Not Found: /admin/logs/
+2024-10-23 23:39:14,841 [WARNING] "GET /admin/logs/ HTTP/1.1" 404 4634
+2024-10-23 23:39:26,708 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:39:26,715 [INFO] "GET /admin/ HTTP/1.1" 200 5888
+2024-10-23 23:39:37,515 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:39:37,521 [INFO] "GET /admin/ HTTP/1.1" 200 5888
+2024-10-23 23:39:51,872 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:39:51,885 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-23 23:39:52,837 [WARNING] Not Found: /admin/logs/
+2024-10-23 23:39:52,838 [WARNING] "GET /admin/logs/ HTTP/1.1" 404 4634
+2024-10-23 23:39:54,872 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:39:54,877 [INFO] "GET /admin/ HTTP/1.1" 200 5888
+2024-10-23 23:40:01,972 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:40:01,990 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-23 23:40:02,930 [WARNING] Not Found: /admin/logs/
+2024-10-23 23:40:02,931 [WARNING] "GET /admin/logs/ HTTP/1.1" 404 4634
+2024-10-23 23:40:04,731 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:40:04,738 [INFO] "GET /admin/ HTTP/1.1" 200 5888
+2024-10-23 23:41:53,613 [INFO] C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\admin.py changed, reloading.
+2024-10-23 23:41:54,339 [INFO] Watching for file changes with StatReloader
+2024-10-23 23:42:11,386 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:11,472 [INFO] "GET /admin/ HTTP/1.1" 200 14688
+2024-10-23 23:42:11,614 [INFO] "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+2024-10-23 23:42:11,617 [INFO] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+2024-10-23 23:42:11,621 [INFO] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2024-10-23 23:42:11,624 [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2024-10-23 23:42:11,627 [INFO] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+2024-10-23 23:42:11,631 [INFO] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+2024-10-23 23:42:11,637 [INFO] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2024-10-23 23:42:11,650 [INFO] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2024-10-23 23:42:11,656 [INFO] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2024-10-23 23:42:11,661 [INFO] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2024-10-23 23:42:12,025 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:12,040 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-23 23:42:12,967 [WARNING] Not Found: /favicon.ico
+2024-10-23 23:42:12,968 [WARNING] "GET /favicon.ico HTTP/1.1" 404 2544
+2024-10-23 23:42:23,990 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:24,023 [INFO] "GET /admin/booking/dailyanalytics/ HTTP/1.1" 200 14297
+2024-10-23 23:42:24,066 [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+2024-10-23 23:42:24,067 [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2024-10-23 23:42:24,070 [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+2024-10-23 23:42:24,071 [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+2024-10-23 23:42:24,080 [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2024-10-23 23:42:24,080 [INFO] "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+2024-10-23 23:42:24,083 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:24,083 [INFO] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2024-10-23 23:42:24,091 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:42:24,094 [INFO] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2024-10-23 23:42:24,096 [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2024-10-23 23:42:24,100 [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2024-10-23 23:42:24,133 [INFO] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2024-10-23 23:42:24,144 [INFO] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2024-10-23 23:42:32,192 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:32,239 [INFO] "GET /admin/booking/auditlog/ HTTP/1.1" 200 26131
+2024-10-23 23:42:32,270 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:32,272 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:42:32,311 [INFO] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2024-10-23 23:42:41,929 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:41,944 [INFO] "GET /admin/booking/historicalpattern/ HTTP/1.1" 200 14320
+2024-10-23 23:42:41,979 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:41,981 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:42:45,221 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:45,238 [INFO] "GET /admin/booking/customer/ HTTP/1.1" 200 14302
+2024-10-23 23:42:45,278 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:45,280 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:42:47,419 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:47,462 [INFO] "GET /admin/booking/auditlog/ HTTP/1.1" 200 29416
+2024-10-23 23:42:47,501 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:47,504 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:42:57,116 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:57,129 [INFO] "GET /admin/booking/remindersettings/ HTTP/1.1" 200 14234
+2024-10-23 23:42:57,168 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:42:57,171 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:42:59,975 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:00,008 [INFO] "GET /admin/booking/remindersettings/add/ HTTP/1.1" 200 17537
+2024-10-23 23:43:00,036 [INFO] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+2024-10-23 23:43:00,040 [INFO] "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+2024-10-23 23:43:00,048 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:00,051 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:43:00,074 [INFO] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+2024-10-23 23:43:00,086 [INFO] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2024-10-23 23:43:06,084 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:06,097 [INFO] "GET /admin/booking/customerpreference/ HTTP/1.1" 200 14407
+2024-10-23 23:43:06,135 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:06,138 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:43:07,824 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:07,846 [INFO] "GET /admin/booking/customerpreference/add/ HTTP/1.1" 200 18697
+2024-10-23 23:43:07,876 [INFO] "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+2024-10-23 23:43:07,881 [INFO] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2024-10-23 23:43:07,888 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:07,891 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:43:07,915 [INFO] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2024-10-23 23:43:07,982 [INFO] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2024-10-23 23:43:12,348 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:12,365 [INFO] "GET /admin/booking/business/ HTTP/1.1" 200 16717
+2024-10-23 23:43:12,400 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:12,401 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:43:15,266 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:15,283 [INFO] "GET /admin/booking/appointment/ HTTP/1.1" 200 14964
+2024-10-23 23:43:15,318 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:15,320 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:43:17,047 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:17,078 [INFO] "GET /admin/booking/appointment/add/ HTTP/1.1" 200 28691
+2024-10-23 23:43:17,114 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:17,118 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:43:17,218 [INFO] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2024-10-23 23:43:36,639 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:36,662 [INFO] "GET /admin/booking/errorlog/ HTTP/1.1" 200 21350
+2024-10-23 23:43:36,696 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:36,698 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:43:40,948 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:40,999 [INFO] "GET /admin/booking/auditlog/ HTTP/1.1" 200 39298
+2024-10-23 23:43:41,032 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:41,035 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:43:54,446 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:54,502 [INFO] "GET /admin/booking/auditlog/?timestamp__day=23&timestamp__month=10&timestamp__year=2024 HTTP/1.1" 200 45466
+2024-10-23 23:43:54,540 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:54,542 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:43:55,982 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:56,047 [INFO] "GET /admin/booking/auditlog/?timestamp__month=10&timestamp__year=2024 HTTP/1.1" 200 45384
+2024-10-23 23:43:56,083 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:56,084 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:43:57,467 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:57,535 [INFO] "GET /admin/booking/auditlog/?timestamp__day=23&timestamp__month=10&timestamp__year=2024 HTTP/1.1" 200 48006
+2024-10-23 23:43:57,572 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:43:57,575 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 23:49:29,181 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:49:29,205 [INFO] "GET /admin/booking/errorlog/ HTTP/1.1" 200 21350
+2024-10-23 23:49:29,256 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-23 23:49:29,259 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-24 18:48:24,496 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 18:48:24,605 [INFO] "GET /admin/booking/errorlog/ HTTP/1.1" 200 21350
+2024-10-24 18:48:24,690 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 18:48:24,779 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-24 18:48:32,740 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 18:48:32,790 [INFO] "GET /admin/booking/errorlog/1/change/ HTTP/1.1" 200 17876
+2024-10-24 18:48:32,830 [INFO] "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+2024-10-24 18:48:32,854 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 18:48:32,854 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-24 18:48:32,878 [INFO] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+2024-10-24 18:48:32,894 [INFO] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+2024-10-24 18:48:32,911 [INFO] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2024-10-24 18:48:53,604 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 18:48:53,726 [INFO] - Broken pipe from ('127.0.0.1', 62750)
+2024-10-24 18:48:53,742 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 18:48:53,836 [INFO] "GET /admin/booking/errorlog/ HTTP/1.1" 200 21350
+2024-10-24 18:48:53,908 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 18:48:53,910 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-24 18:49:00,462 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 18:49:00,476 [INFO] "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 14369
+2024-10-24 18:49:00,552 [INFO] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331

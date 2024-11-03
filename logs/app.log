@@ -1,0 +1,789 @@
+2024-10-24 20:42:31,381 [INFO] Watching for file changes with StatReloader
+2024-10-24 20:42:34,776 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:42:34,884 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-24 20:42:40,037 [WARNING] Not Found: /
+2024-10-24 20:42:40,037 [WARNING] "GET / HTTP/1.1" 404 2493
+2024-10-24 20:42:40,400 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:42:40,415 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-24 20:42:42,087 [WARNING] Not Found: /favicon.ico
+2024-10-24 20:42:42,087 [WARNING] "GET /favicon.ico HTTP/1.1" 404 2544
+2024-10-24 20:42:46,471 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:42:48,912 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:42:49,036 [INFO] "GET /admin/ HTTP/1.1" 200 15380
+2024-10-24 20:42:49,300 [INFO] "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+2024-10-24 20:42:49,300 [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2024-10-24 20:42:49,300 [INFO] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+2024-10-24 20:42:49,300 [INFO] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2024-10-24 20:42:49,300 [INFO] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+2024-10-24 20:42:49,316 [INFO] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+2024-10-24 20:42:49,333 [INFO] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2024-10-24 20:42:49,351 [INFO] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2024-10-24 20:42:49,351 [INFO] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2024-10-24 20:42:49,351 [INFO] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2024-10-24 20:42:53,904 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:42:53,972 [INFO] "GET /admin/booking/appointmentservice/ HTTP/1.1" 200 13533
+2024-10-24 20:42:54,013 [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+2024-10-24 20:42:54,015 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:42:54,021 [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2024-10-24 20:42:54,061 [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+2024-10-24 20:42:54,063 [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2024-10-24 20:42:54,067 [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+2024-10-24 20:42:54,072 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-24 20:42:54,073 [INFO] "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+2024-10-24 20:42:54,087 [INFO] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2024-10-24 20:42:54,123 [INFO] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2024-10-24 20:42:54,144 [INFO] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2024-10-24 20:42:54,194 [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2024-10-24 20:42:54,228 [INFO] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2024-10-24 20:42:46,545 [ERROR] ERROR: Http404 - 
+Traceback (most recent call last):
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\views\decorators\common.py", line 23, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\sites.py", line 462, in catch_all_view
+    raise Http404
+django.http.response.Http404
+
+2024-10-24 20:42:55,906 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:42:56,022 [INFO] "GET /admin/booking/appointmentservice/add/ HTTP/1.1" 200 21386
+2024-10-24 20:42:56,054 [INFO] "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+2024-10-24 20:42:56,056 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:42:56,058 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-24 20:42:56,074 [INFO] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2024-10-24 20:42:56,074 [INFO] "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+2024-10-24 20:42:56,081 [INFO] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+2024-10-24 20:42:56,092 [INFO] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+2024-10-24 20:42:56,109 [INFO] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2024-10-24 20:42:56,119 [INFO] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2024-10-24 20:42:56,198 [INFO] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2024-10-24 20:42:56,200 [INFO] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2024-10-24 20:43:07,708 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:43:07,737 [INFO] "GET /admin/booking/historicalpattern/ HTTP/1.1" 200 14815
+2024-10-24 20:43:07,774 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:43:07,774 [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2024-10-24 20:43:07,776 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-24 20:43:10,563 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:43:10,577 [INFO] "GET /admin/booking/appointment/ HTTP/1.1" 200 15559
+2024-10-24 20:43:10,616 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:43:10,618 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-24 20:43:12,543 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:43:12,620 [INFO] "GET /admin/booking/appointment/add/ HTTP/1.1" 200 32629
+2024-10-24 20:43:12,660 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:43:12,662 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-24 20:43:12,682 [INFO] "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+2024-10-24 20:43:12,745 [INFO] "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+2024-10-24 20:42:55,044 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-24 20:43:17,228 [WARNING] Not Found: /admin/auth/user/
+2024-10-24 20:43:17,232 [INFO] - Broken pipe from ('127.0.0.1', 50882)
+2024-10-24 20:43:21,659 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:43:21,670 [INFO] "GET /admin/booking/appointmentservice/ HTTP/1.1" 200 13533
+2024-10-24 20:43:21,710 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:43:21,712 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-24 20:55:43,220 [INFO] C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\models.py changed, reloading.
+2024-10-24 20:55:44,266 [INFO] Watching for file changes with StatReloader
+2024-10-24 20:59:35,214 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:59:35,279 [INFO] "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 14864
+2024-10-24 20:59:35,665 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:59:35,678 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-24 20:59:38,396 [WARNING] Not Found: /favicon.ico
+2024-10-24 20:59:38,396 [WARNING] "GET /favicon.ico HTTP/1.1" 404 2544
+2024-10-24 20:59:42,414 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:59:42,433 [INFO] "GET /admin/booking/dailyanalytics/ HTTP/1.1" 200 14792
+2024-10-24 20:59:42,478 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:59:42,481 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-24 20:59:44,358 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:59:44,412 [INFO] "GET /admin/booking/dailyanalytics/add/ HTTP/1.1" 200 20676
+2024-10-24 20:59:44,463 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:59:44,463 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-24 20:59:44,502 [INFO] "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+2024-10-24 20:59:44,513 [INFO] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2024-10-24 20:59:44,583 [INFO] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2024-10-24 20:59:48,342 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 20:59:48,354 [INFO] "GET /admin/ HTTP/1.1" 200 15380
+2024-10-24 20:59:48,385 [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2024-10-24 21:00:33,069 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 21:00:33,193 [ERROR] WARNING: Exception - HTTP 401
+NoneType: None
+
+2024-10-24 21:00:35,476 [WARNING] Unauthorized: /api/businesses/
+2024-10-24 21:00:35,476 [WARNING] "GET /api/businesses/?format=api HTTP/1.1" 401 5218
+2024-10-24 21:00:35,545 [INFO] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+2024-10-24 21:00:35,547 [INFO] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+2024-10-24 21:00:35,553 [INFO] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+2024-10-24 21:00:35,562 [INFO] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+2024-10-24 21:00:35,597 [INFO] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+2024-10-24 21:00:35,597 [INFO] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+2024-10-24 21:00:35,645 [INFO] "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+2024-10-24 21:00:35,648 [INFO] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+2024-10-24 21:00:35,660 [INFO] "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+2024-10-24 21:00:35,664 [INFO] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+2024-10-24 21:00:35,667 [INFO] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+2024-10-24 21:00:35,667 [INFO] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+2024-10-24 21:00:59,439 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 21:00:59,451 [ERROR] WARNING: Exception - HTTP 401
+NoneType: None
+
+2024-10-24 21:01:02,129 [WARNING] Unauthorized: /api/services/
+2024-10-24 21:01:02,129 [WARNING] "GET /api/services/?format=api HTTP/1.1" 401 5202
+2024-10-24 21:01:33,181 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 21:01:33,200 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-24 21:01:36,535 [WARNING] Not Found: /auth/login/
+2024-10-24 21:01:36,535 [WARNING] "GET /auth/login/ HTTP/1.1" 404 2544
+2024-10-24 21:01:44,562 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 21:01:44,583 [ERROR] WARNING: Exception - HTTP 405
+NoneType: None
+
+2024-10-24 21:01:47,216 [WARNING] Method Not Allowed: /api/auth/login/
+2024-10-24 21:01:47,216 [WARNING] "GET /api/auth/login/ HTTP/1.1" 405 5682
+2024-10-24 21:04:10,984 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 21:04:16,111 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 21:04:20,289 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 21:04:20,305 [INFO] "OPTIONS /api/auth/login/ HTTP/1.1" 200 5952
+2024-10-24 21:04:11,048 [ERROR] ERROR: ParseError - JSON parse error - Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\parsers.py", line 66, in parse
+    return json.load(decoded_stream, parse_constant=parse_constant)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\utils\json.py", line 31, in load
+    return json.load(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 359, in loads
+    return cls(**kw).decode(s)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\views.py", line 377, in post
+    serializer = UserLoginSerializer(data=request.data)
+                                          ^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\request.py", line 220, in data
+    self._load_data_and_files()
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\request.py", line 283, in _load_data_and_files
+    self._data, self._files = self._parse()
+                              ^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\request.py", line 358, in _parse
+    parsed = parser.parse(stream, media_type, self.parser_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\parsers.py", line 68, in parse
+    raise ParseError('JSON parse error - %s' % str(exc))
+rest_framework.exceptions.ParseError: JSON parse error - Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+
+2024-10-24 21:04:16,111 [ERROR] ERROR: ParseError - JSON parse error - Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\parsers.py", line 66, in parse
+    return json.load(decoded_stream, parse_constant=parse_constant)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\utils\json.py", line 31, in load
+    return json.load(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 359, in loads
+    return cls(**kw).decode(s)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\views.py", line 377, in post
+    serializer = UserLoginSerializer(data=request.data)
+                                          ^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\request.py", line 220, in data
+    self._load_data_and_files()
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\request.py", line 283, in _load_data_and_files
+    self._data, self._files = self._parse()
+                              ^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\request.py", line 358, in _parse
+    parsed = parser.parse(stream, media_type, self.parser_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\parsers.py", line 68, in parse
+    raise ParseError('JSON parse error - %s' % str(exc))
+rest_framework.exceptions.ParseError: JSON parse error - Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+
+2024-10-24 21:04:22,089 [ERROR] WARNING: Exception - HTTP 400
+NoneType: None
+
+2024-10-24 21:04:38,400 [WARNING] Bad Request: /api/auth/login/
+2024-10-24 21:04:38,409 [WARNING] "POST /api/auth/login/ HTTP/1.1" 400 5733
+2024-10-24 21:04:24,381 [ERROR] WARNING: Exception - HTTP 400
+NoneType: None
+
+2024-10-24 21:04:41,571 [WARNING] Bad Request: /api/auth/login/
+2024-10-24 21:04:41,571 [WARNING] "POST /api/auth/login/ HTTP/1.1" 400 5733
+2024-10-24 21:04:51,202 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-24 21:04:51,210 [ERROR] ERROR: ParseError - JSON parse error - Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\parsers.py", line 66, in parse
+    return json.load(decoded_stream, parse_constant=parse_constant)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\utils\json.py", line 31, in load
+    return json.load(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 359, in loads
+    return cls(**kw).decode(s)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\views.py", line 377, in post
+    serializer = UserLoginSerializer(data=request.data)
+                                          ^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\request.py", line 220, in data
+    self._load_data_and_files()
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\request.py", line 283, in _load_data_and_files
+    self._data, self._files = self._parse()
+                              ^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\request.py", line 358, in _parse
+    parsed = parser.parse(stream, media_type, self.parser_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\rest_framework\parsers.py", line 68, in parse
+    raise ParseError('JSON parse error - %s' % str(exc))
+rest_framework.exceptions.ParseError: JSON parse error - Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+
+2024-10-24 21:04:53,265 [ERROR] WARNING: Exception - HTTP 400
+NoneType: None
+
+2024-10-24 21:04:55,845 [WARNING] Bad Request: /api/auth/login/
+2024-10-24 21:04:55,845 [WARNING] "POST /api/auth/login/ HTTP/1.1" 400 5733
+2024-10-25 22:45:45,504 [INFO] Watching for file changes with StatReloader
+2024-10-25 22:45:49,681 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-25 22:45:49,745 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-25 22:45:50,944 [WARNING] Not Found: /
+2024-10-25 22:45:50,944 [WARNING] "GET / HTTP/1.1" 404 2493
+2024-10-25 22:45:51,255 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-25 22:45:51,265 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-25 22:45:52,269 [WARNING] Not Found: /favicon.ico
+2024-10-25 22:45:52,270 [WARNING] "GET /favicon.ico HTTP/1.1" 404 2544
+2024-10-25 22:45:55,588 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-25 22:45:55,657 [INFO] "GET /admin/ HTTP/1.1" 200 15380
+2024-10-25 22:45:55,842 [INFO] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2024-10-25 22:45:55,843 [INFO] "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+2024-10-25 22:45:55,843 [INFO] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+2024-10-25 22:45:55,843 [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2024-10-25 22:45:55,843 [INFO] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+2024-10-25 22:45:55,849 [INFO] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+2024-10-25 22:45:55,853 [INFO] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2024-10-25 22:45:55,862 [INFO] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2024-10-25 22:45:55,862 [INFO] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2024-10-25 22:45:55,862 [INFO] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2024-10-25 22:46:04,118 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-25 22:46:04,274 [INFO] "GET /admin/booking/auditlog/ HTTP/1.1" 200 68651
+2024-10-25 22:46:04,300 [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+2024-10-25 22:46:04,305 [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+2024-10-25 22:46:04,305 [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+2024-10-25 22:46:04,310 [INFO] "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+2024-10-25 22:46:04,311 [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2024-10-25 22:46:04,316 [INFO] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2024-10-25 22:46:04,317 [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2024-10-25 22:46:04,317 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-25 22:46:04,317 [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2024-10-25 22:46:04,317 [INFO] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2024-10-25 22:46:04,331 [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2024-10-25 22:46:04,347 [INFO] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2024-10-25 22:46:04,371 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-25 22:46:04,405 [INFO] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2024-10-25 22:46:08,798 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-25 22:46:08,835 [INFO] "GET /admin/booking/errorlog/ HTTP/1.1" 200 31165
+2024-10-25 22:46:08,868 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-25 22:46:08,870 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-25 22:52:53,931 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-25 22:52:54,025 [ERROR] WARNING: Exception - HTTP 405
+NoneType: None
+
+2024-10-25 22:52:55,107 [WARNING] Method Not Allowed: /api/auth/login/
+2024-10-25 22:52:55,123 [WARNING] "GET /api/auth/login/ HTTP/1.1" 405 5652
+2024-10-25 22:52:55,168 [INFO] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+2024-10-25 22:52:55,168 [INFO] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+2024-10-25 22:52:55,168 [INFO] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+2024-10-25 22:52:55,183 [INFO] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+2024-10-25 22:52:55,226 [INFO] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+2024-10-25 22:52:55,231 [INFO] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+2024-10-25 22:52:55,270 [INFO] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+2024-10-25 22:52:55,285 [INFO] "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+2024-10-25 22:52:55,285 [INFO] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+2024-10-25 22:52:55,285 [INFO] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+2024-10-25 22:52:55,301 [INFO] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+2024-10-25 22:52:55,303 [INFO] "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+2024-10-25 22:52:55,473 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-25 22:52:55,495 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-25 22:52:56,513 [WARNING] Not Found: /favicon.ico
+2024-10-25 22:52:56,513 [WARNING] "GET /favicon.ico HTTP/1.1" 404 2544
+2024-10-25 22:52:58,685 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-25 22:52:58,703 [INFO] "GET /admin/booking/appointmentservice/ HTTP/1.1" 200 13533
+2024-10-25 22:52:58,937 [INFO] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2024-10-25 22:55:06,112 [INFO] "POST /api/auth/register/ HTTP/1.1" 201 206
+2024-10-25 22:58:06,251 [INFO] "POST /api/auth/login/ HTTP/1.1" 200 199
+2024-10-25 23:12:09,971 [INFO] C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\models.py changed, reloading.
+2024-10-25 23:12:11,362 [INFO] Watching for file changes with StatReloader
+2024-10-25 23:12:13,505 [INFO] C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\models.py changed, reloading.
+2024-10-25 23:12:14,176 [INFO] Watching for file changes with StatReloader
+2024-10-25 23:15:43,638 [INFO] C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\views.py changed, reloading.
+2024-10-25 23:15:44,282 [INFO] Watching for file changes with StatReloader
+2024-10-25 23:19:26,011 [INFO] C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\views.py changed, reloading.
+2024-10-25 23:19:26,629 [INFO] Watching for file changes with StatReloader
+2024-10-25 23:21:00,741 [INFO] C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\serializers.py changed, reloading.
+2024-10-25 23:21:01,403 [INFO] Watching for file changes with StatReloader
+2024-10-26 00:22:55,782 [INFO] Watching for file changes with StatReloader
+2024-10-26 00:23:00,080 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-26 00:23:00,105 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-26 00:23:01,353 [WARNING] Not Found: /
+2024-10-26 00:23:01,353 [WARNING] "GET / HTTP/1.1" 404 2493
+2024-10-28 21:52:19,450 [INFO] Watching for file changes with StatReloader
+2024-10-28 21:52:22,597 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-28 21:52:23,877 [WARNING] Not Found: /
+2024-10-28 21:52:23,878 [WARNING] "GET / HTTP/1.1" 404 2493
+2024-10-28 21:52:24,841 [ERROR] WARNING: Exception - HTTP 404
+NoneType: None
+
+2024-10-28 21:52:25,969 [WARNING] Not Found: /favicon.ico
+2024-10-28 21:52:25,973 [WARNING] "GET /favicon.ico HTTP/1.1" 404 2544
+2024-10-28 21:52:28,798 [INFO] "GET /admin/ HTTP/1.1" 302 0
+2024-10-28 21:52:28,945 [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+2024-10-28 21:52:29,127 [INFO] "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+2024-10-28 21:52:29,128 [INFO] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+2024-10-28 21:52:29,129 [INFO] "GET /static/admin/css/login.css HTTP/1.1" 200 951
+2024-10-28 21:52:29,134 [INFO] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+2024-10-28 21:52:29,134 [INFO] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2024-10-28 21:52:29,153 [INFO] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+2024-10-28 21:52:29,161 [INFO] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2024-10-28 21:52:36,992 [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2024-10-28 21:52:37,006 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:52:37,038 [INFO] "GET /admin/ HTTP/1.1" 200 11929
+2024-10-28 21:52:37,077 [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2024-10-28 21:52:37,110 [INFO] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2024-10-28 21:52:37,122 [INFO] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2024-10-28 21:52:37,122 [INFO] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2024-10-28 21:52:49,411 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:52:49,514 [INFO] "GET /admin/booking/auditlog/ HTTP/1.1" 200 17274
+2024-10-28 21:52:49,558 [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+2024-10-28 21:52:49,563 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:52:49,563 [INFO] "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+2024-10-28 21:52:49,573 [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2024-10-28 21:52:49,602 [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+2024-10-28 21:52:49,603 [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+2024-10-28 21:52:49,611 [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2024-10-28 21:52:49,616 [INFO] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2024-10-28 21:52:49,629 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:52:49,640 [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2024-10-28 21:52:49,658 [INFO] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2024-10-28 21:52:49,679 [INFO] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2024-10-28 21:52:49,721 [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2024-10-28 21:52:49,764 [INFO] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2024-10-28 21:52:53,064 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:52:53,073 [INFO] "GET /admin/ HTTP/1.1" 200 11929
+2024-10-28 21:52:55,769 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:52:55,788 [INFO] "GET /admin/booking/errorlog/ HTTP/1.1" 200 16733
+2024-10-28 21:52:55,834 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:52:55,837 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:53:01,725 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:01,739 [INFO] "GET /admin/booking/schedule/ HTTP/1.1" 200 12847
+2024-10-28 21:53:01,787 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:01,790 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:53:01,841 [INFO] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2024-10-28 21:53:05,538 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:05,550 [INFO] "GET /admin/booking/business/ HTTP/1.1" 200 13053
+2024-10-28 21:53:05,600 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:05,602 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:53:07,308 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:07,369 [INFO] "GET /admin/booking/business/add/ HTTP/1.1" 200 14137
+2024-10-28 21:53:07,411 [INFO] "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+2024-10-28 21:53:07,413 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:07,416 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:53:07,419 [INFO] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+2024-10-28 21:53:07,459 [INFO] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+2024-10-28 21:53:07,465 [INFO] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2024-10-28 21:53:26,790 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:26,807 [INFO] "POST /admin/booking/business/add/ HTTP/1.1" 200 14351
+2024-10-28 21:53:26,860 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:26,863 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:53:47,514 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:47,526 [INFO] "POST /admin/booking/business/add/ HTTP/1.1" 302 0
+2024-10-28 21:53:47,551 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:47,566 [INFO] "GET /admin/booking/business/ HTTP/1.1" 200 15525
+2024-10-28 21:53:47,618 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:47,620 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:53:47,684 [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+2024-10-28 21:53:55,857 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:55,902 [INFO] "GET /admin/booking/service/add/ HTTP/1.1" 200 18480
+2024-10-28 21:53:55,951 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:55,954 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:53:55,969 [INFO] "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+2024-10-28 21:53:55,971 [INFO] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2024-10-28 21:53:56,102 [INFO] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2024-10-28 21:53:56,103 [INFO] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2024-10-28 21:53:59,262 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:59,284 [INFO] "GET /admin/booking/business/1/change/?_to_field=id HTTP/1.1" 200 14527
+2024-10-28 21:53:59,324 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:53:59,326 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:54:03,007 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:54:03,018 [INFO] "GET /admin/booking/service/ HTTP/1.1" 200 12440
+2024-10-28 21:54:03,066 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:54:03,069 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:54:06,014 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:54:06,035 [INFO] "GET /admin/booking/service/add/ HTTP/1.1" 200 18480
+2024-10-28 21:54:06,074 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:54:06,077 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:54:52,995 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:54:53,011 [INFO] "POST /admin/booking/service/add/ HTTP/1.1" 302 0
+2024-10-28 21:54:53,030 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:54:53,043 [INFO] "GET /admin/booking/service/ HTTP/1.1" 200 15408
+2024-10-28 21:54:53,106 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:54:53,108 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:04,042 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:04,078 [INFO] "GET /admin/booking/schedule/add/ HTTP/1.1" 200 17167
+2024-10-28 21:55:04,137 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:04,140 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:07,211 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:07,224 [INFO] "GET /admin/booking/customuser/ HTTP/1.1" 200 16175
+2024-10-28 21:55:07,277 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:07,280 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:21,201 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:21,213 [INFO] "GET /admin/booking/service/ HTTP/1.1" 200 15178
+2024-10-28 21:55:21,267 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:21,269 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:22,275 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:22,287 [INFO] "GET /admin/booking/schedule/ HTTP/1.1" 200 12847
+2024-10-28 21:55:22,343 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:22,346 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:23,911 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:23,923 [INFO] "GET /admin/booking/errorlog/ HTTP/1.1" 200 16733
+2024-10-28 21:55:23,972 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:23,975 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:24,570 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:24,598 [INFO] "GET /admin/booking/dailyanalytics/ HTTP/1.1" 200 12892
+2024-10-28 21:55:24,661 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:24,663 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:25,549 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:25,559 [INFO] "GET /admin/booking/business/ HTTP/1.1" 200 15309
+2024-10-28 21:55:25,605 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:25,608 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:27,714 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:27,801 [INFO] "GET /admin/booking/auditlog/ HTTP/1.1" 200 39686
+2024-10-28 21:55:27,849 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:27,852 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:29,582 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:29,599 [INFO] "GET /admin/booking/appointment/ HTTP/1.1" 200 13593
+2024-10-28 21:55:29,650 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:29,652 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:30,422 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:30,434 [INFO] "GET /admin/booking/appointmentservice/ HTTP/1.1" 200 11633
+2024-10-28 21:55:30,480 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:30,483 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:33,662 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:33,681 [INFO] "GET /admin/booking/appointmentservice/add/ HTTP/1.1" 200 19490
+2024-10-28 21:55:33,736 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:33,740 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:33,778 [INFO] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2024-10-28 21:55:39,910 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:39,922 [INFO] "GET /admin/auth/group/ HTTP/1.1" 200 11878
+2024-10-28 21:55:39,972 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:39,975 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:42,071 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:42,082 [INFO] "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 11950
+2024-10-28 21:55:43,692 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:43,702 [INFO] "GET /admin/auth/group/ HTTP/1.1" 200 11878
+2024-10-28 21:55:43,753 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:43,755 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:44,976 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:44,999 [INFO] "GET /admin/auth/group/add/ HTTP/1.1" 200 18433
+2024-10-28 21:55:45,051 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:45,054 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:45,074 [INFO] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+2024-10-28 21:55:45,074 [INFO] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15502
+2024-10-28 21:55:45,195 [INFO] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+2024-10-28 21:55:45,195 [INFO] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2024-10-28 21:55:45,197 [INFO] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+2024-10-28 21:55:47,225 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:47,237 [INFO] "GET /admin/auth/group/ HTTP/1.1" 200 11878
+2024-10-28 21:55:47,288 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:47,292 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:47,866 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:47,885 [INFO] "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 11950
+2024-10-28 21:55:48,935 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:48,944 [INFO] "GET /admin/booking/appointmentservice/ HTTP/1.1" 200 11633
+2024-10-28 21:55:48,991 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:48,994 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:51,265 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:51,277 [INFO] "GET /admin/booking/schedule/ HTTP/1.1" 200 12847
+2024-10-28 21:55:51,321 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:51,324 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:51,981 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:51,996 [INFO] "GET /admin/booking/service/ HTTP/1.1" 200 15178
+2024-10-28 21:55:52,045 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:52,047 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:53,711 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:53,723 [INFO] "GET /admin/booking/customuser/ HTTP/1.1" 200 16175
+2024-10-28 21:55:53,776 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:53,779 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:55:54,859 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:54,923 [INFO] "GET /admin/booking/customuser/add/ HTTP/1.1" 200 26655
+2024-10-28 21:55:54,968 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:55:54,971 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:56:20,584 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:56:20,611 [INFO] "GET /admin/auth/group/add/ HTTP/1.1" 200 18433
+2024-10-28 21:56:20,661 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:56:20,663 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:57:28,306 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:57:28,324 [INFO] "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+2024-10-28 21:57:28,344 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:57:28,354 [INFO] "GET /admin/auth/group/ HTTP/1.1" 200 13333
+2024-10-28 21:57:28,412 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:57:28,416 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:57:33,988 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:57:34,001 [INFO] "GET /admin/booking/customuser/ HTTP/1.1" 200 16175
+2024-10-28 21:57:34,058 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:57:34,061 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:57:36,304 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:57:36,360 [INFO] "GET /admin/booking/customuser/add/ HTTP/1.1" 200 26689
+2024-10-28 21:57:36,407 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:57:36,409 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:58:46,935 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:58:46,955 [INFO] "POST /admin/booking/customuser/add/ HTTP/1.1" 302 0
+2024-10-28 21:58:46,970 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:58:46,984 [INFO] "GET /admin/booking/customuser/ HTTP/1.1" 200 17001
+2024-10-28 21:58:47,043 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:58:47,048 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:58:47,058 [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+2024-10-28 21:59:10,350 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:59:10,362 [INFO] "GET /admin/booking/appointmentservice/ HTTP/1.1" 200 11633
+2024-10-28 21:59:10,417 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:59:10,420 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:59:12,122 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:59:12,130 [INFO] "GET /admin/booking/appointment/ HTTP/1.1" 200 13593
+2024-10-28 21:59:12,179 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:59:12,183 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:59:13,805 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:59:13,815 [INFO] "GET /admin/booking/appointmentservice/ HTTP/1.1" 200 11633
+2024-10-28 21:59:13,872 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:59:13,876 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:59:14,481 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:59:14,514 [INFO] "GET /admin/booking/appointmentservice/add/ HTTP/1.1" 200 19536
+2024-10-28 21:59:14,573 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:59:14,575 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:59:20,550 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:59:20,561 [INFO] "GET /admin/booking/appointment/ HTTP/1.1" 200 13593
+2024-10-28 21:59:20,610 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:59:20,612 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:59:22,349 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:59:22,399 [INFO] "GET /admin/booking/appointment/add/ HTTP/1.1" 200 29495
+2024-10-28 21:59:22,445 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 21:59:22,448 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 21:59:22,485 [INFO] "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+2024-10-28 21:59:22,534 [INFO] "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+2024-10-28 22:00:14,123 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:00:14,276 [ERROR] Internal Server Error: /admin/booking/appointment/add/
+Traceback (most recent call last):
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\options.py", line 1870, in _changeform_view
+    if all_valid(formsets) and form_validated:
+       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\forms\formsets.py", line 579, in all_valid
+    return all([formset.is_valid() for formset in formsets])
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\forms\formsets.py", line 384, in is_valid
+    self.errors
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\forms\formsets.py", line 366, in errors
+    self.full_clean()
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\forms\formsets.py", line 429, in full_clean
+    form_errors = form.errors
+                  ^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\forms\forms.py", line 327, in full_clean
+    self._post_clean()
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\forms\models.py", line 498, in _post_clean
+    self.instance.full_clean(exclude=exclude, validate_unique=False)
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\db\models\base.py", line 1625, in full_clean
+    self.clean()
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\models.py", line 146, in clean
+    if self.start_time >= self.end_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'datetime.datetime' and 'NoneType'
+2024-10-28 22:00:14,298 [ERROR] ERROR: Exception - HTTP 500
+NoneType: None
+
+2024-10-28 22:00:15,508 [ERROR] "POST /admin/booking/appointment/add/ HTTP/1.1" 500 167002
+2024-10-28 22:00:27,329 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:00:27,370 [INFO] "GET /admin/booking/appointment/add/ HTTP/1.1" 200 29495
+2024-10-28 22:00:49,869 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:00:49,909 [INFO] "POST /admin/booking/appointment/add/ HTTP/1.1" 200 29961
+2024-10-28 22:00:49,962 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:00:49,965 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 22:01:01,373 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:01:01,413 [INFO] "POST /admin/booking/appointment/add/ HTTP/1.1" 200 29895
+2024-10-28 22:01:01,452 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:01:01,455 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 22:01:20,354 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:01:20,392 [INFO] "POST /admin/booking/appointment/add/ HTTP/1.1" 200 29830
+2024-10-28 22:01:20,438 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:01:20,440 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 22:01:34,521 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:01:34,574 [ERROR] Internal Server Error: /admin/booking/appointment/add/
+Traceback (most recent call last):
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\options.py", line 1871, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\contrib\admin\options.py", line 1294, in save_model
+    obj.save()
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\models.py", line 123, in save
+    self.total_price = self.calculate_total_price()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\clinic_booking\booking\models.py", line 120, in calculate_total_price
+    return sum(service.price for service in self.services.all())
+                                            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\db\models\manager.py", line 164, in all
+    return self.get_queryset()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anwar\OneDrive\Desktop\booking\Backend\env\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 757, in get_queryset
+    raise ValueError(
+ValueError: 'Appointment' instance needs to have a primary key value before this relationship can be used.
+2024-10-28 22:01:34,591 [ERROR] ERROR: Exception - HTTP 500
+NoneType: None
+
+2024-10-28 22:01:35,759 [ERROR] "POST /admin/booking/appointment/add/ HTTP/1.1" 500 152704
+2024-10-28 22:03:05,859 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:03:05,914 [INFO] "POST /admin/booking/appointment/add/ HTTP/1.1" 200 29830
+2024-10-28 22:03:06,007 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:03:06,009 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-28 22:03:09,742 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:03:09,778 [INFO] "POST /admin/booking/appointment/add/ HTTP/1.1" 200 29830
+2024-10-28 22:03:09,839 [INFO] Action logged: VIEW by anwarnawrozi2002@gmail.com
+2024-10-28 22:03:09,842 [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
